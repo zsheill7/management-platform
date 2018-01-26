@@ -146,6 +146,16 @@ class Sidebar extends Component {
                   </span>
                 </Link>
               </Menu.Item>
+              <Menu.Item key="twitterSearch">
+                <Link to={`${url}/twitterSearch`}>
+                  <span className="isoMenuHolder" style={submenuColor}>
+                    <i className="ion-social-twitter" />
+                    <span className="nav-text">
+                      <IntlMessages id="sidebar.twitterSearch" />
+                    </span>
+                  </span>
+                </Link>
+              </Menu.Item>
               {/*<SubMenu
                 key="ecommerce"
                 title={
